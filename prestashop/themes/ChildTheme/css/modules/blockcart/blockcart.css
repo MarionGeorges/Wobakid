@@ -4,6 +4,7 @@
 #header .shopping_cart {
   position: relative;
   float: right;
+  left: 219px;
   /*padding-top: 50px; */
 }
   #header .shopping_cart > a:first-child:after {
@@ -163,7 +164,7 @@
 ********************************************************************/
 #header .cart_block {
   position: absolute;
-  top: 95px;
+  /*top: 95px;*/
   right: 0;
   z-index: 100;
   display: none;

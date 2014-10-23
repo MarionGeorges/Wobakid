@@ -1,6 +1,6 @@
 .shop-phone {
   float: left;
-  padding: 5px 0 10px;
+  padding: 5px 10px 10px;
   line-height: 18px; }
   @media (max-width: 767px) {
     .shop-phone {
@@ -14,8 +14,8 @@
     color: white; }
 
 #contact-link {
-  float: right;
-  border-left: 1px solid #515151; }
+  float: left;
+  border-right: 1px solid #515151; }
   @media (max-width: 479px) {
     #contact-link {
       width: 25%;
