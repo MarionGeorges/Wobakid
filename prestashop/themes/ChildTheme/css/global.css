@@ -6779,7 +6779,7 @@ div.star a:hover {
   background-color: #333333; }
   @media (min-width: 768px) {
     .footer-container {
-      background: url(../img/footer-bg.png) repeat-x #333333; } }
+      background: url(../img/footer-bg.png) repeat-x #d9d9d9; } }
   .footer-container .container {
     padding-bottom: 100px; }
   .footer-container #footer {
@@ -6797,7 +6797,7 @@ div.star a:hover {
         color: white; }
     .footer-container #footer h4 {
       font: 600 18px/22px "Open Sans", sans-serif;
-      color: white;
+      color: black;
       margin: 0 0 13px 0;
       cursor: pointer; }
       @media (max-width: 767px) {
@@ -6815,7 +6815,7 @@ div.star a:hover {
           .footer-container #footer h4.active:after {
             content: "\f056"; } }
       .footer-container #footer h4 a {
-        color: white; }
+        color: black; }
     .footer-container #footer ul li {
       padding-bottom: 8px; }
       .footer-container #footer ul li a {
@@ -6901,6 +6901,7 @@ div.star a:hover {
             content: "\f0d2"; }
       .footer-container #footer #social_block h4 {
         float: right;
+        color: white;
         margin-bottom: 0;
         font-size: 21px;
         line-height: 25px;
@@ -7877,7 +7878,7 @@ div.star.star_hover:after {
 #facebook_block,
 #cmsinfo_block {
   overflow: hidden;
-  background: #f2f2f2;
+  /*background: #f2f2f2;*/
   min-height: 344px;
   padding-right: 29px;
   padding-left: 29px; }
@@ -7912,8 +7913,13 @@ div.star.star_hover:after {
   border: 1px solid #aaaaaa;
   padding-bottom: 10px; }
 
+.col-xs-6 p:nth-child(3){
+  border: 1px solid #d9d9d9;
+  padding: 5px;
+}
+
 #cmsinfo_block {
-  border-left: 1px solid #d9d9d9; }
+  /*border-left: 1px solid #d9d9d9; */}
   @media (max-width: 767px) {
     #cmsinfo_block {
       border: none;
@@ -7928,9 +7934,9 @@ div.star.star_hover:after {
         width: 100%;
         border-top: 1px solid #d9d9d9; } }
   #cmsinfo_block > div + div {
-    border-left: 1px solid #d9d9d9;
+    /*border-left: 1px solid #d9d9d9;*/
     min-height: 344px;
-    padding-left: 29px; }
+    padding-left: 30px; }
     @media (max-width: 479px) {
       #cmsinfo_block > div + div {
         border-left: none;

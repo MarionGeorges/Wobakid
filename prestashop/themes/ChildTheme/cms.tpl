@@ -38,10 +38,14 @@
 		</div>
 	{/if}
 	<div class="rte{if $content_only} content_only{/if}">
-		{$cms->content}
+		<!-- added by SlidersEverywhere module -->
+{hook h="DisplaySlidersPro" CMS="1"}
+<!-- END added by SlidersEverywhere module -->
+{$cms->content}
 	</div>
 {elseif isset($cms_category)}
 	<div class="block-cms">
+		tursigfsjglijsekfg
 		<h1><a href="{if $cms_category->id eq 1}{$base_dir}{else}{$link->getCMSCategoryLink($cms_category->id, $cms_category->link_rewrite)}{/if}">{$cms_category->name|escape:'html':'UTF-8'}</a></h1>
 		{if $cms_category->description}
 			<p>{$cms_category->description|escape:'html':'UTF-8'}</p>

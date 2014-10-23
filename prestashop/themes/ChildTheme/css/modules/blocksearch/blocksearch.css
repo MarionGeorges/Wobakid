@@ -1,5 +1,7 @@
 #search_block_top {
-  padding-top: 50px; }
+  /*padding-top: 50px; */
+  width: 200px;
+}
   #search_block_top #searchbox {
     float: left;
     width: 100%; }
@@ -11,7 +13,8 @@
     right: 0;
     border: none;
     color: white;
-    width: 50px;
+    width: 58px;
+    height: 58px;
     text-align: center;
     padding: 10px 0 11px 0; }
     #search_block_top .btn.button-search span {
@@ -28,10 +31,10 @@
   #search_block_top #search_query_top {
     display: inline;
     padding: 0 13px;
-    height: 45px;
+    height: 58px;
     line-height: 45px;
     background: #fbfbfb;
-    margin-right: 1px; }
+    margin: 0px; }
 
 .ac_results {
   background: white;
@@ -63,3 +66,18 @@ form#searchbox {
     float: left; }
     form#searchbox .button.button-small i {
       margin-right: 0; }
+
+.sf-search {
+  width: 200px;
+  display: inline;
+}
+
+#search_query_top{
+  width: 200px;
+  display: inline;
+}
+
+#submit_search{
+  float: right;
+  right: 0px;
+}

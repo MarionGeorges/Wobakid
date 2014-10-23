@@ -1,0 +1,37 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{opartproductvideo}prestashop>opartproductvideo_481534367d702cd615ad2ad68feb2375'] = 'Op\'art product video';
+$_MODULE['<{opartproductvideo}prestashop>opartproductvideo_49a6d48c49eb48c0813435e352600c68'] = 'Ajoutez des vidéos à vos pages produits';
+$_MODULE['<{opartproductvideo}prestashop>opartproductvideo_d6f47e627cb8b9186caa435aba1c32ae'] = 'Etes-vous sûr de vouloir supprimer ce module ?';
+$_MODULE['<{opartproductvideo}prestashop>opartproductvideo_1781a2018386283f2947a78942da730b'] = 'Vous devez configurer votre module';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_b8ecf0476559a85f23f7921a75dacac1'] = 'Supprimer les éléments sélectionnez';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_e25f0ecd41211b01c83e5fec41df4fe7'] = 'Supprimer les éléments sélectionnez ?';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_b78a3223503896721cca1303f776159b'] = 'Titre';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_97e7c9a7d06eac006a28bf05467fcc8b'] = 'Lien';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_34e2d1989a1dbf75cd631596133ee5ee'] = 'Vidéo';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_51ec9bf4aaeab1b25bb57f9f8d4de557'] = 'Titre:';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_045ff5a9af3090c89fc27ed0cecbd19a'] = 'Le titre n\'est utilisé que dans l\'administration';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_48ccf48dcf2218a413ce473262f21a0c'] = 'Largeur:';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_e933dc24fb245d863a43b4fefe9b45f5'] = 'Hauteur:';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_ef2f59f06132ddc2e1bc8d00abbe6e02'] = 'Lien:';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_9ac8af9105257a4ba8e248d9591db449'] = 'Copiez l\'url de la vidéo ici. Vous pouvez utiliser des vidéos youtube, dailymotion et wimeo';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_2d4a2a08b1c021566b2fbbed559ba25c'] = 'Titre public';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_31c218596bdf13c927e51810c1ace269'] = 'Ce titre est visible en frontoffice';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_d0042a700e9bdf79689d63ee6846dc0e'] = 'Description:';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_b7bc11e1357fcdd1dc4bd450f9e7c477'] = 'Indiquez ici la description de votre vidéo (Facultatif)';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_1ae38bd3a8021670e7773eae7a240a6c'] = 'Class CSS';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_1368574075c9b98be6abc8b686b5ace5'] = 'Ajoutez une class css pour personnalier l\'affichage (Facultatif)';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_b6f988ecf0b2369fbdc334e36f093455'] = 'Nom de l\'ancre';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_af36dce9c2842bd633e21929fa70b04b'] = 'Vous pouvez ajouter une ancre pour accéder directement à votre vidéo (Facultatif)';
+$_MODULE['<{opartproductvideo}prestashop>adminopartproductvideocontroller_c9cc8cce247e49bae79f15173ce97354'] = 'Sauvegarder';
+$_MODULE['<{opartproductvideo}prestashop>configure_c26e192506628606c0c3e0fce8c6af45'] = 'Aucune configuration n\'est requise pour ce module mais vous devriez lire la ';
+$_MODULE['<{opartproductvideo}prestashop>configure_55876228853abf632dec9346a4f372ec'] = 'documentation';
+$_MODULE['<{opartproductvideo}prestashop>configure_f07964d4a74775e4df6f427844a0f7f9'] = 'avant de l\'utiliser';
+$_MODULE['<{opartproductvideo}prestashop>help_305a7ddeae7c16ccd710d41cfebd3e9d'] = 'Trouvez plus d\'aider dans le fichier d\'aide';
+$_MODULE['<{opartproductvideo}prestashop>help_3368437e4e2217707778e553e4f0dd6a'] = 'Cliquez ici pour ouvrir le fichier d\'aide';
+$_MODULE['<{opartproductvideo}prestashop>help_e1dd1ce945d1fdf37fdd6b75f3007752'] = 'Besoin de plus de fonctionnalité ?';
+$_MODULE['<{opartproductvideo}prestashop>help_20c4038cc0afbf40b28686bd2fab1607'] = 'Contactez-moi par email';
+$_MODULE['<{opartproductvideo}prestashop>opartproductvideotab_34e2d1989a1dbf75cd631596133ee5ee'] = 'Vidéo';

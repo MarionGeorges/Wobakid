@@ -13,7 +13,7 @@
         #htmlcontent_home ul li img {
           min-width: 100%; } }
     #htmlcontent_home ul li.htmlcontent-item-5 {
-      width: 66.6667%; }
+      /*width: 66.6667%;*/ } /*permet de mettre une image prenant la place de 2 vignettes.*/
       @media (max-width: 479px) {
         #htmlcontent_home ul li.htmlcontent-item-5 {
           width: 100%; } }

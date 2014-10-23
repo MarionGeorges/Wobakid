@@ -52,7 +52,7 @@ class Blocktopmenu extends Module
 	{
 		$this->name = 'blocktopmenu';
 		$this->tab = 'front_office_features';
-		$this->version = '2.0.7';
+		$this->version = '2.0.8';
 		$this->author = 'PrestaShop';
 
 		$this->bootstrap = true;
@@ -594,7 +594,7 @@ class Blocktopmenu extends Module
 		return $html;
 	}
 
-	private function generateCategoriesMenu($categories)
+	private function generateCategoriesMenu($categories, $is_children = 0)
 	{
 		$html = '';
 
@@ -615,9 +615,9 @@ class Blocktopmenu extends Module
 			if (isset($category['children']) && !empty($category['children']))
 			{
 				$html .= '<ul>';
-				$html .= $this->generateCategoriesMenu($category['children']);
+				$html .= $this->generateCategoriesMenu($category['children'], 1);
 
-				if ((int)$category['level_depth'] == 2)
+				if ((int)$category['level_depth'] > 1 && !$is_children)
 				{
 					$files = scandir(_PS_CAT_IMG_DIR_);
 
